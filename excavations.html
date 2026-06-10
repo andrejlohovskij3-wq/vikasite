@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Знаменитые раскопки — Палеомир</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>⛏️ Знаменитые раскопки</h1>
+            <p>Места, где была найдена история</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="index.html">🏠 Главная</a>
+            <a href="excavations.html" class="active">⛏️ Раскопки</a>
+            <a href="methods.html">🔬 Методы</a>
+            <a href="locations.html">🌍 Карта</a>
+            <a href="games.html">🎮 Игры</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <h2>Великие палеонтологические открытия</h2>
+
+        <!-- Таблица знаменитых раскопок -->
+        <h3>📊 Известные места раскопок</h3>
+        <table>
+            <tr>
+                <th>Место</th>
+                <th>Страна</th>
+                <th>Находка</th>
+                <th>Год</th>
+            </tr>
+            <tr>
+                <td>Формация Хелл-Крик</td>
+                <td>США (Монтана)</td>
+                <td>Тираннозавр Рекс (Сью)</td>
+                <td>1990</td>
+            </tr>
+            <tr>
+                <td>Парк динозавров</td>
+                <td>Канада (Альберта)</td>
+                <td>Центрозавр, Стиракозавр</td>
+                <td>1910</td>
+            </tr>
+            <tr>
+                <td>Долина Луны</td>
+                <td>Аргентина</td>
+                <td>Аргентинозавр (крупнейший)</td>
+                <td>1987</td>
+            </tr>
+            <tr>
+                <td>Соляные копи</td>
+                <td>Германия</td>
+                <td>Археоптерикс (первая птица)</td>
+                <td>1861</td>
+            </tr>
+            <tr>
+                <td>Гоби</td>
+                <td>Монголия</td>
+                <td>Велоцираптор, Протоцератопс</td>
+                <td>1922</td>
+            </tr>
+        </table>
+
+        <!-- Картинки -->
+        <h3>🖼️ Иллюстрации находок</h3>
+        <div class="images-gallery">
+            <div class="placeholder-img">
+                <span class="emoji-big">🦖</span>Тираннозавр Рекс
+            </div>
+            <div class="placeholder-img">
+                <span class="emoji-big">🦕</span>Аргентинозавр
+            </div>
+            <div class="placeholder-img">
+                <span class="emoji-big">🦅</span>Археоптерикс
+            </div>
+            <div class="placeholder-img">
+                <span class="emoji-big">🪶</span>Велоцираптор
+            </div>
+        </div>
+
+        <!-- Список -->
+        <h3>📋 Ключевые открытия</h3>
+        <ul class="styled-list-emoji">
+            <li>Скелет тираннозавра "Сью" — самый полный (90% костей) скелет T-Rex</li>
+            <li>Аргентинозавр — крупнейшее сухопутное животное в истории Земли</li>
+            <li>Археоптерикс — переходная форма между динозаврами и птицами</li>
+            <li>Монгольская Гоби — кладезь окаменелостей мелового периода</li>
+        </ul>
+
+        <!-- Кнопки -->
+        <a href="methods.html" class="btn btn-teal">🔬 Как это изучают?</a>
+        <a href="#popup-excavation" class="btn btn-brown">💡 Интересный факт</a>
+
+        <!-- Всплывающее окно -->
+        <div class="popup-overlay" id="popup-excavation">
+            <div class="popup-box">
+                <h3>⛏️ Самое крупное захоронение</h3>
+                <div class="popup-img-placeholder">🦴</div>
+                <p>В формации Моррисон (США) найдено более <strong>300 скелетов</strong> динозавров! Это место называют "кладбищем динозавров" — здесь обнаружены останки диплодоков, стегозавров, аллозавров и многих других видов юрского периода.</p>
+                <a href="#" class="btn-close">Закрыть</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Палеомир — узнайте больше о древней истории Земли 🦖</p>
+    </footer>
+</body>
+</html>

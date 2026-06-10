@@ -1,0 +1,123 @@
+локации
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карта раскопок — Палеомир</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🌍 Расположение раскопок</h1>
+            <p>Где находят древние сокровища</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="index.html">🏠 Главная</a>
+            <a href="excavations.html">⛏️ Раскопки</a>
+            <a href="methods.html">🔬 Методы</a>
+            <a href="locations.html" class="active">🌍 Карта</a>
+            <a href="games.html">🎮 Игры</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <h2>Основные места палеонтологических раскопок</h2>
+
+        <!-- Карточки локаций -->
+        <div class="map-grid">
+            <div class="map-card">
+                <span class="map-icon">🦖</span>
+                <h4>Северная Америка</h4>
+                <p>Формация Хелл-Крик<br>Формация Моррисон<br>Парк динозавров (Канада)</p>
+            </div>
+            <div class="map-card">
+                <span class="map-icon">🦕</span>
+                <h4>Южная Америка</h4>
+                <p>Долина Луны (Аргентина)<br>Патагония<br>Бразильское плато</p>
+            </div>
+            <div class="map-card">
+                <span class="map-icon">🐚</span>
+                <h4>Европа</h4>
+                <p>Зольнхофен (Германия)<br>Юрское побережье (Англия)<br>Карстовые пещеры (Франция)</p>
+            </div>
+            <div class="map-card">
+                <span class="map-icon">🦴</span>
+                <h4>Азия</h4>
+                <p>Пустыня Гоби (Монголия)<br>Ляонин (Китай)<br>Сиваликские холмы (Индия)</p>
+            </div>
+            <div class="map-card">
+                <span class="map-icon">🐘</span>
+                <h4>Африка</h4>
+                <p>Олдувайское ущелье (Танзания)<br>Долина Омо (Эфиопия)<br>Кару (ЮАР)</p>
+            </div>
+            <div class="map-card">
+                <span class="map-icon">🦈</span>
+                <h4>Австралия</h4>
+                <p>Риверслей (Квинсленд)<br>Бухта динозавров<br>Плато Кимберли</p>
+            </div>
+        </div>
+
+        <!-- Таблица с информацией -->
+        <h3>📊 Крупнейшие места находок</h3>
+        <table>
+            <tr>
+                <th>Регион</th>
+                <th>Период</th>
+                <th>Известные находки</th>
+            </tr>
+            <tr>
+                <td>Хелл-Крик, США</td>
+                <td>Мел (66 млн лет)</td>
+                <td>T-Rex, Трицератопс</td>
+            </tr>
+            <tr>
+                <td>Патагония, Аргентина</td>
+                <td>Мел (95 млн лет)</td>
+                <td>Аргентинозавр, Гиганотозавр</td>
+            </tr>
+            <tr>
+                <td>Гоби, Монголия</td>
+                <td>Мел (75 млн лет)</td>
+                <td>Велоцираптор, Овираптор</td>
+            </tr>
+            <tr>
+                <td>Ляонин, Китай</td>
+                <td>Юра-Мел (125 млн лет)</td>
+                <td>Пернатые динозавры</td>
+            </tr>
+        </table>
+
+        <!-- Список -->
+        <h3>📋 Что нужно для экспедиции</h3>
+        <ul class="styled-list-emoji">
+            <li>Геологические молотки и зубила</li>
+            <li>Кисти и шпатели для тонкой очистки</li>
+            <li>Гипсовые бинты для защиты находок</li>
+            <li>GPS-навигатор и полевые дневники</li>
+            <li>Солнцезащитный крем и много воды</li>
+        </ul>
+
+        <!-- Кнопки -->
+        <a href="excavations.html" class="btn btn-brown">⛏️ Знаменитые раскопки</a>
+        <a href="#popup-location" class="btn btn-amber">💡 Рекордная находка</a>
+<!-- Всплывающее окно -->
+        <div class="popup-overlay" id="popup-location">
+            <div class="popup-box">
+                <h3>🏆 Самое богатое место</h3>
+                <div class="popup-img-placeholder">🗺️</div>
+                <p>Формация <strong>Хелл-Крик</strong> в США считается одним из самых "урожайных" мест на окаменелости. Здесь найдены останки более <strong>50 видов</strong> динозавров, включая знаменитого Тираннозавра Рекса. Возраст пород — около 66 миллионов лет, это самое окончание мелового периода!</p>
+                <a href="#" class="btn-close">Закрыть</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Палеомир — узнайте больше о древней истории Земли 🦖</p>
+    </footer>
+</body>
+</html>
