@@ -1,4 +1,4 @@
-/* ========== ОБЩИЕ СТИЛИ ========== */
+
 * {
     margin: 0;
     padding: 0;
@@ -21,7 +21,7 @@ body {
     padding: 20px;
 }
 
-/* ========== ШАПКА ========== */
+
 header {
     background: linear-gradient(180deg, #5d4037 0%, #4e342e 100%);
     color: #ffcc80;
@@ -72,7 +72,7 @@ nav a.active {
     color: #3e2723;
 }
 
-/* ========== КОНТЕНТ ========== */
+
 main {
     background-color: #fdf5e6;
     padding: 35px 30px;
@@ -101,7 +101,7 @@ p {
     margin-bottom: 15px;
 }
 
-/* ========== КНОПКИ ========== */
+
 .btn {
     display: inline-block;
     padding: 11px 22px;
@@ -160,7 +160,7 @@ p {
     background-color: #004d40;
 }
 
-/* ========== КАРТИНКИ (ЗАГЛУШКИ) ========== */
+
 .images-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -198,7 +198,7 @@ p {
     margin-bottom: 6px;
 }
 
-/* ========== ТАБЛИЦЫ ========== */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -230,7 +230,7 @@ table tr:nth-child(even):hover {
     background-color: #ffe0b2;
 }
 
-/* ========== СПИСКИ ========== */
+
 .styled-list {
     list-style: none;
     margin: 15px 0;
@@ -266,7 +266,7 @@ table tr:nth-child(even):hover {
     margin-right: 6px;
 }
 
-/* ========== ВСПЛЫВАЮЩИЕ ОКНА ========== */
+
 .popup-overlay {
     display: none;
     position: fixed;
@@ -336,7 +336,7 @@ table tr:nth-child(even):hover {
     border: 2px solid #8d6e63;
 }
 
-/* ========== МИНИ-ИГРЫ ========== */
+
 .game-block {
     background-color: #efebe9;
     padding: 25px;
@@ -396,7 +396,7 @@ table tr:nth-child(even):hover {
     font-weight: bold;
 }
 
-/* Неправильный ответ — красный */
+
 .game-answer-wrong {
     display: none;
     background-color: #ffcdd2;
@@ -446,7 +446,7 @@ table tr:nth-child(even):hover {
     text-align: center;
 }
 
-/* ========== ПОДВАЛ ========== */
+
 footer {
     background-color: #3e2723;
     color: #ffcc80;
@@ -457,7 +457,7 @@ footer {
     border-top: 3px solid #ff8f00;
 }
 
-/* ========== КАРТА ЗАГЛУШКА ========== */
+
 .map-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -490,7 +490,7 @@ footer {
     margin-bottom: 5px;
 }
 
-/* ========== МЕЛКИЕ ЭЛЕМЕНТЫ ========== */
+
 .emoji-icon {
     font-size: 1.4em;
 }
